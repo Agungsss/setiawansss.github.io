@@ -1,0 +1,176 @@
+body {
+  font-family: "Aeonik";
+  color:#404146;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #42FBF2;
+  color: #ffffff;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  font-weight:700;
+  letter-spacing: 10px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: right;
+  padding: 10px 25px;
+  font-size: 20px;
+  
+}
+
+.header-list a {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+.header-list li a:hover {
+  background: rgb(0, 208, 223);
+  color: rgb(255, 255, 255);
+}
+
+.copy-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.copy-container h1 {
+  font-size: 100px;
+  margin-bottom: 0px;
+  letter-spacing: 10px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.copy-container img {
+  height:300px;
+}
+
+.about { 
+  font-size: 28px;
+  height: 260px;
+  background-color: rgb(244, 244, 244);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/*.about h3 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}*/
+
+.about p {
+  padding: 0px 150px;
+  font-size: 20px;
+}
+
+.contents {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contents h3 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.contents-item {
+  float: left;
+  width: 33.3%;
+  cursor: pointer;
+  transition: transform 0.9s;
+}
+
+.contents-item:hover{
+  transform: translate(-10px);
+}
+
+.contents-item img{
+  height: 250px;
+  box-shadow: 5px 5px 20px rgba(136, 135, 135, 0.886);
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(244, 244, 244);
+}
+
+.contact-title {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding:20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color:#7C7D83;
+}
+
+.contact-submit{
+  width: 500px;
+  background-color:#42FBF2;
+  color:#4f4f4f;
+  font-size: 22px;
+  transition: 0.8s;
+}
+
+.contact-submit:hover{
+  color: #fff;
+}
+
+.contact-form p{
+  font-size: 20px;
+}
+
+.footer {
+  background-image: linear-gradient(to right, rgb(152, 240, 218), rgb(0, 145, 101));
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: center;
+  font-size: 32px;
+  font-weight:700;
+  letter-spacing: 10px;
+  padding: 50px;
+}
+
+
